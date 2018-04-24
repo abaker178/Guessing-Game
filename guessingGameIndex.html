@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Great Innovators Guessing Game</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Andrew Baker">
+	<meta name="description" content="Think you know when some of the world's greatest people were born? How about linking a famous quote to the author? Match some of the world's greatest minds and innovators with their birthday and famous quote!">
+	<meta name="purpose" content="code test for applying for the position of Front-End Developer at DealerOn">
+	<link rel="stylesheet" type="text/css" href="guessingGameStyle.css">
+</head>
+<body>
+	<!-- Title Section -->
+	<h1>Great innovators in history</h1>
+	<h1>guessing game</h1>
+	<h3 id="questionDisplay">When were they born? Who said it?</h3>
+
+	<!-- Menu Section -->
+	<div id="stripe">
+		<button id="reset">Start</button>
+		<div id="spacer" class="hidden"> - Or - </div>
+		<button id="startOver" class="hidden">Play Again?</button>
+		<span id="message">Press Start to Begin!</span>
+		<button id="birthday" class="type hidden">Birthday</button>
+		<button id="quote" class="type hidden">Quote</button>
+		<button id="easy" class="mode hidden">Easy</button>
+		<button id="hard" class="mode hidden">Hard</button>
+	</div>
+	
+	<!-- Game Section -->
+	<div id="container">
+		<div class="squareText">
+			<p></p>
+			<div class="square"></div>
+		</div>
+		<div class="squareText">
+			<p></p>
+			<div class="square"></div>
+		</div>
+		<div class="squareText">
+			<p></p>
+			<div class="square"></div>
+		</div>
+		<div class="squareText">
+			<p></p>
+			<div class="square"></div>
+		</div>
+		<div class="squareText">
+			<p></p>
+			<div class="square"></div>
+		</div>
+		<div class="squareText">
+			<p></p>
+			<div class="square"></div>
+		</div>
+	</div>
+
+	<div id="correct" class="squareText">
+		<p>You got it!</p>
+		<div id="correctbg" class="square"></div>
+	</div>
+
+	<script src="guessingGameScript.js"></script>
+</body>
+</html>
