@@ -1,3 +1,3 @@
 # Guessing-Game
 
-Javascript Practice Exercise
+HTML/CSS/Javascript Practice Exercise
